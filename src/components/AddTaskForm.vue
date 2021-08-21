@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "AddTask",
+  name: "AddTaskForm",
   data() {
     return {
       text: "",

@@ -1,7 +1,11 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
-    <Button @click="onClick()" text="Add Task" color="green" />
+    <Button
+      @toggle-add-task="$emit('toggle-add-task')"
+      text="Add Task"
+      color="green"
+    />
   </header>
 </template>
 
@@ -13,9 +17,6 @@ export default {
   components: { Button },
   props: {
     title: String,
-  },
-  methods: {
-    onClick() {},
   },
 };
 </script>
