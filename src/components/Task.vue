@@ -12,6 +12,8 @@
 </template>
 
 <script>
+console.log("Render?");
+
 export default {
   name: "Task",
   props: {
