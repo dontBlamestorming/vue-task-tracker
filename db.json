@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Doctors Appointment",
-      "day": "March 5th at 2:30pm",
-      "reminder": true
-    },
-    {
       "id": "2",
       "text": "Meeting with boss",
       "day": "March 6th at 1:30pm",
@@ -16,13 +10,19 @@
       "id": "3",
       "text": "Food shopping",
       "day": "March 7th at 2:00pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "123",
       "day": "123",
       "reminder": false,
       "id": "8vik5y2"
+    },
+    {
+      "text": "asd",
+      "day": "asd",
+      "reminder": true,
+      "id": "L0uWpWm"
     }
   ]
 }
